@@ -1,0 +1,20 @@
+table {
+	text-align: center;
+	border-style: double;
+	border-width: 5px;
+}
+
+td {
+	border-width: 1px;
+	border-style: dashed;
+}
+
+.countryName {
+	padding: 10px;
+	font-size: 20px;
+}
+
+.countryDescription {
+	text-align: left;
+	padding: 5px;
+}

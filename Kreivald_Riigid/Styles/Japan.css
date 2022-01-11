@@ -1,0 +1,41 @@
+body {
+	background-color: Pink;
+}
+
+th {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+h1 {
+	text-align: center;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	font-family: Tahoma;
+}
+
+h2 {
+	font-family: Tahoma;
+	letter-spacing: 3px;
+	text-decoration: underline;
+}
+
+h3{
+	font-family: Tahoma;
+}
+
+p {
+	line-height: 25px;
+	text-align: justify;
+	font-weight: 300;
+	font-family: "Calibri";
+	font-size: 18px;
+}
+
+img {
+	border: 3px solid black;
+}
+
+.imageTable td {
+	padding-right: 10px;
+}
