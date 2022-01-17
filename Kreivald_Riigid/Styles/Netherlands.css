@@ -27,14 +27,17 @@ h2 {
 
 h3{
 	font-family: "Courier new";
+	margin-left: 350px; 
 }
 
 p {
+	margin: 0px auto;
 	line-height: 25px;
 	text-align: justify;
 	font-weight: 300;
 	font-family: "Times New Roman";
 	font-size: 18px;
+	width: 1000px;
 }
 
 img {
@@ -43,4 +46,20 @@ img {
 
 .imageTable td {
 	padding-right: 10px;
+}
+
+.imgParagraph {
+	text-align: center;
+}
+
+.outerList {
+	margin-left: 400px;
+}
+
+table {
+	margin: 0 auto;
+}
+
+#top {
+	margin: 0px;
 }

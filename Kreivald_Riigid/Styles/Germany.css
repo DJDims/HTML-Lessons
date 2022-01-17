@@ -29,7 +29,7 @@ h2 {
 h3{
 	font-family: Cambia;
 	color: snow;
-	margin-left: 50px;
+	margin-left: 80px;
 }
 
 p {
@@ -39,7 +39,8 @@ p {
 	font-size: 18px;
 	background-color: Brown;
 	color: ghostwhite;
-	padding: 10px 60px;
+	padding: 10px 200px;
+	margin: 0px 50px;
 }
 
 img {
@@ -60,8 +61,12 @@ img {
 }
 
 .imageParagraph {
-	background-color: 0,0,0,0;
+	background-color: Maroon;
 	text-align: center;
 	margin: 0px auto;
 	width: 750px;
+}
+
+.outerList {
+	margin-left: 400px;
 }
