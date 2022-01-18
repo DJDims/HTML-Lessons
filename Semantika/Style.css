@@ -1,0 +1,81 @@
+body {
+	background-color: Wheat;
+}
+
+.wrapper {
+	border: 2px solid red;
+	background-color: red;
+	width: 1380px;
+	margin: 0px auto;
+}
+
+header {
+	border: 2px solid orange;
+	background-color: orange;
+}
+
+h1 {
+	background-color: white;
+}
+
+.asideLeft {
+	border: 2px solid yellow;
+	background-color: OrangeRed;
+	width: 300px;
+	float: left;
+}
+
+.asideRight {
+	border: 2px solid yellow;
+	background-color: DarkOrange;
+	width: 300px;
+	float: right;
+}
+
+nav {
+	border: 2px solid green;
+	background-color: green;
+}
+
+main {
+	border: 2px solid blue;
+	background-color: blue;
+	width: 760px;
+	float: left;
+}
+
+section {
+	width: 760px;
+	border: 2px solid cyan;
+	background-color: cyan;
+	overflow: hidden;
+}
+
+h2 {
+	border: 2px solid Fuchsia;
+	background-color: Lime;
+}
+
+
+article {
+	border: 2px solid purple;
+	background-color: purple;
+	float: left;
+	width: 370px;
+}
+
+figure {
+	border: 2px solid BlueViolet;
+}
+
+p {
+	border: 2px solid Chocolate;
+	background-color: Indigo;
+}
+
+footer {
+	border: 2px solid black;
+	background-color: black;
+	color: snow;
+	clear: both;
+}
