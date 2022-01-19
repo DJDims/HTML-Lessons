@@ -3,14 +3,14 @@ body {
 }
 
 .wrapper {
-	border: 2px solid red;
+	border: 2px solid orange;
 	background-color: red;
 	width: 1380px;
 	margin: 0px auto;
 }
 
 header {
-	border: 2px solid orange;
+	border: 2px solid red;
 	background-color: orange;
 }
 
