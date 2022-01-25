@@ -1,43 +1,51 @@
+body {
+    box-sizing: border-box;
+}
+
 .wrapper {
     width: 1380px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     margin: 0 auto;
 }
 
 header {
     width: 1380px;
-    border: 1px solid greenyellow;
+    /*border: 1px solid greenyellow;*/
     margin: 0 auto;
     float: left;
     text-align: center;
 }
 
-.ImgLeft {
-    border: 1px solid pink;
+.ImgHeader {
+    /*border: 1px solid pink;*/
     float: left;
-    width: 220px;
-    margin: 0px auto;
+    width: 300px;
 }
 
-.ImgRight {
-    border: 1px solid pink;
-    float: right;
-    width: 220px;
-    margin: 0px auto;
+.ImgHeader img {
+    border-top: 3px solid cadetblue;
+    border-left: 3px solid cadetblue;
+    border-bottom: 5px solid darkturquoise;
+    border-right: 5px solid darkturquoise;
 }
 
 .Logo {
     width: 64px;
     margin: 0px 20px;
+    border-radius: 32px;
+    padding: 10px;
 }
 
 h1 {
-    width: 930px;
+    width: 700px;
     float: left;
+    color: Crimson;
+    text-shadow: 1px 1px 1px blue, -1px -1px 1px blue, 1px -1px 1px blue, -1px 1px 1px blue,
+     0px 0px 2px blue, 4px 4px 2px white, 5px 5px 1px slateblue, 3px 3px 1px slateblue, 5px 3px 1px slateblue, 3px 5px 1px slateblue;
 }
 
 aside {
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
 }
 
 .navigation {
@@ -45,41 +53,90 @@ aside {
     float: left;
 }
 
-main {
-    width: 820px;
-    border: 1px solid orange;
-    float: left;
+nav a {
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 25px;
 }
 
-article {
-    border: 1px solid purple;
+main {
+    width: 820px;
+    /*border: 1px solid orange;*/
+    float: left;
+    /*background-color: orange;*/
 }
 
 main section {
+    width: 800px;
+    /*border: 1px solid pink;*/
     float: left;
-    width: 400px;
-    border: 1px solid black;
+    margin-left: 10px; 
+}
+
+h2 {
+    text-align: center;
+    color: darkblue;
+    font-family: arial;
+}
+
+article {
+    /*border: 1px solid purple;*/
+    float: left;
+    width: 390px;
+    margin-left: 5px;
+}
+
+article h3 {
+    background: linear-gradient(0deg, FireBrick 20%, darkblue, white);
+    color: white;
+    font-family: Tahoma;
+    text-align: center;
+    font-weight: 300;
 }
 
 span {
     font-weight: bold;
+    float: left;
+}
+
+p img {
+    width: 32px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 5px; 
 }
 
 .HtmlSpan {
     color: orange;
 }
+
 .BstrSpan {
     color: purple;
 }
+
 .CssSpan {
     color: blue;
 }
+
 .AjsSpan {
     color: red;
 }
 
+.bottomParagraphBackground {
+    background-color: darkblue;
+    width: 780px;
+    padding: 30px 10px;
+}
+
 .bottomParagraph {
-    width: 800px;
+    width: 760px;
+    background-color: white; 
+    padding: 0px 5px;
+}
+
+.bottomParagraph p {
+    color: darkblue;
 }
 
 .news {
@@ -105,7 +162,8 @@ span {
 
 footer {
     clear: both;
-    border: 1px solid Aqua;
+    padding-top: 30px;
+    /*border: 1px solid Aqua;*/
 }
 
 footer p {
@@ -113,4 +171,5 @@ footer p {
     color: DarkBlue;
     font-weight: bold;
     font-family: Calibri;
+
 }
