@@ -1,0 +1,116 @@
+.wrapper {
+    width: 1380px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+header {
+    width: 1380px;
+    border: 1px solid greenyellow;
+    margin: 0 auto;
+    float: left;
+    text-align: center;
+}
+
+.ImgLeft {
+    border: 1px solid pink;
+    float: left;
+    width: 220px;
+    margin: 0px auto;
+}
+
+.ImgRight {
+    border: 1px solid pink;
+    float: right;
+    width: 220px;
+    margin: 0px auto;
+}
+
+.Logo {
+    width: 64px;
+    margin: 0px 20px;
+}
+
+h1 {
+    width: 930px;
+    float: left;
+}
+
+aside {
+    border: 1px solid blue;
+}
+
+.navigation {
+    width: 200px;
+    float: left;
+}
+
+main {
+    width: 820px;
+    border: 1px solid orange;
+    float: left;
+}
+
+article {
+    border: 1px solid purple;
+}
+
+main section {
+    float: left;
+    width: 400px;
+    border: 1px solid black;
+}
+
+span {
+    font-weight: bold;
+}
+
+.HtmlSpan {
+    color: orange;
+}
+.BstrSpan {
+    color: purple;
+}
+.CssSpan {
+    color: blue;
+}
+.AjsSpan {
+    color: red;
+}
+
+.bottomParagraph {
+    width: 800px;
+}
+
+.news {
+    float: left;
+    width: 300px;
+}
+
+.news h2 {
+    text-align: center;
+    color: DarkBlue;
+    font-family: Calibri;
+}
+
+.news h3 {
+    text-align: center;
+    color: white;
+    background-color: DarkBlue;
+}
+
+.news p {
+    text-align: justify;
+}
+
+footer {
+    clear: both;
+    border: 1px solid Aqua;
+}
+
+footer p {
+    text-align: center;
+    color: DarkBlue;
+    font-weight: bold;
+    font-family: Calibri;
+}
