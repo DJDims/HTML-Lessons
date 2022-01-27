@@ -1,177 +1,178 @@
-body {
-    box-sizing: border-box;
-}
 
 .wrapper {
     width: 1380px;
-    /*border: 1px solid red;*/
-    margin: 0 auto;
+    margin: auto;
+    font-family: Arial;
+
+    /* background-color: red; */
 }
 
 header {
-    width: 1380px;
-    /*border: 1px solid greenyellow;*/
-    margin: 0 auto;
+    width: 1300px;
+    margin-left: 40px;
     float: left;
+
+    /* background-color: blue; */
+}
+
+h1 {
     text-align: center;
+    float: left;
+    width: 930px;
+    color: #E7031E;
     letter-spacing: 5px;
+    text-shadow: 1px 1px 0px #0A00CE, -1px -1px 0px #0A00CE, 1px -1px 0px #0A00CE, -1px 1px 0px #0A00CE, 4px 4px 3px #FFFFFF, 7px 8px 3px #0A00CE;
 }
 
 .ImgHeader {
-    /*border: 1px solid pink;*/
+    /* background-color: darkgreen; */
+    width: 185px;
     float: left;
-    width: 300px;
-}
-
-.ImgHeader img {
-    border-top: 3px solid cadetblue;
-    border-left: 3px solid cadetblue;
-    border-bottom: 5px solid darkturquoise;
-    border-right: 5px solid darkturquoise;
 }
 
 .Logo {
     width: 64px;
-    margin: 0px 20px;
-    border-radius: 64px;
-    padding: 10px;
-}
-
-h1 {
-    width: 700px;
     float: left;
-    color: Crimson;
-    text-shadow: 1px 1px 1px blue, -1px -1px 1px blue, 1px -1px 1px blue, -1px 1px 1px blue,
-     0px 0px 2px blue, 4px 4px 2px white, 5px 5px 1px slateblue, 3px 3px 1px slateblue, 5px 3px 1px slateblue, 3px 5px 1px slateblue;
+    margin-right: 20px;
+
+    border-radius: 64px;
+    border-top: 3px solid cadetblue;
+    border-left: 3px solid cadetblue;
+    border-bottom: 5px solid darkturquoise;
+    border-right: 5px solid darkturquoise;
+
 }
 
 aside {
-    /*border: 1px solid blue;*/
+    /* background-color: aqua; */
 }
 
 .navigation {
     width: 200px;
     float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 60px;
+    font-weight: 600;
+    line-height: 25px;
 }
 
-nav a {
-    font-family: Tahoma;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 25px;
-    text-decoration: unset;
+li a {
+    text-decoration: none;
 }
 
 main {
-    width: 820px;
-    /*border: 1px solid orange;*/
-    float: left;
-    /*background-color: orange;*/
-}
-
-main section {
     width: 800px;
-    /*border: 1px solid pink;*/
     float: left;
-    margin-left: 10px; 
+
+    /* background-color: chartreuse; */
 }
 
 h2 {
     text-align: center;
     color: darkblue;
-    font-family: arial;
+    font-size: 20px;
+}
+
+section {
+    width: 395px;
+    float: left;
+
+    /* background-color: brown; */
 }
 
 article {
-    /*border: 1px solid purple;*/
-    float: left;
-    width: 390px;
-    margin-left: 5px;
+    height: 200px;
+    text-align: justify;
+    /* background-color: yellow; */
 }
 
-article h3 {
-    background: linear-gradient(0deg, FireBrick 20%, darkblue, white);
-    color: white;
-    font-family: Tahoma;
+article p {
+    padding: 0px 10px;
+    font-family: 'Times New Roman';
+}
+
+h3 {
     text-align: center;
-    font-weight: 300;
+    color: white;
+    text-shadow: 1px 1px 0px #08005F, -1px -1px 0px #08005F, 1px -1px 0px #08005F, -1px 1px 0px #08005F;
+}
+
+section article h3 {
+    font-size: 18px;
+    background: linear-gradient(0deg, rgba(177,0,0,1) 0%, rgba(34,8,103,1) 38%, rgba(9,9,121,1) 66%, rgba(255,255,255,1) 100%);
+}
+
+.articleImg {
+    width: 32px;
+    float: left;
+    margin-right: 5px;
 }
 
 span {
-    font-weight: bold;
-    float: left;
-}
-
-p img {
-    width: 32px;
-    float: left;
-    margin-bottom: 10px;
-    margin-right: 5px; 
+    font-weight: 600;
+    font-family: Tahoma;
 }
 
 .HtmlSpan {
-    color: orange;
+    color: #f16529;
 }
 
 .BstrSpan {
-    color: purple;
+    color: #670ff2;
 }
 
 .CssSpan {
-    color: blue;
+    color: #2965f1;
 }
 
 .AjsSpan {
-    color: red;
+    color: #dd0031;
 }
 
-.bottomParagraphBackground {
+.RightColumn {
+    margin-left: 10px;
+}
+
+.BottomSection {
+    width: 800px;
     background-color: darkblue;
+}
+
+.BottomArticle {
     width: 780px;
-    padding: 30px 10px;
-}
-
-.bottomParagraph {
-    width: 760px;
-    background-color: white; 
-    padding: 0px 5px;
-}
-
-.bottomParagraph p {
+    height: auto;
+    margin: 20px 10px;
     color: darkblue;
+    background-color: white;
 }
 
 .news {
-    float: left;
     width: 300px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-top: 10px;
 }
 
-.news h2 {
-    text-align: center;
-    color: DarkBlue;
-    font-family: Calibri;
+.news article h3 {
+    font-family: 'Times New Roman';
+    background-color: darkblue;
 }
 
-.news h3 {
-    text-align: center;
-    color: white;
-    background-color: DarkBlue;
-}
-
-.news p {
-    text-align: justify;
+.news article {
+    height: auto;
+    color: darkblue;
 }
 
 footer {
+    width: 1300px;
+    margin-left: 40px;
+    margin-top: 150px;
     clear: both;
-    padding-top: 30px;
-    /*border: 1px solid Aqua;*/
-}
-
-footer p {
     text-align: center;
-    color: DarkBlue;
-    font-weight: bold;
-    font-family: Calibri;
+    font-weight: 700;
+    color: darkblue;
 
+    /* background-color: violet; */
 }
