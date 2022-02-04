@@ -1,9 +1,36 @@
 body {
 	background-color: #670ff2;
 }
-
 .wrapper {
 	width: 1380px;
-	background-color: white;
 	margin: 0px auto;
+}
+
+header {
+	text-align: center;
+	font-size: 20px;
+	background-color: white;
+}
+
+aside {
+	float: left;
+	background-color: white;
+	width: 150px;
+	margin: 5px;
+}
+
+main {
+	width: 1200px;
+	background-color: white;
+	float: left;
+	margin: 0px auto;
+	padding: 0px 10px;
+}
+
+section {
+	text-align: justify;
+}
+
+img {
+	border: 2px solid black;
 }
