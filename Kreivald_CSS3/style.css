@@ -27,6 +27,12 @@ h1 {
 	margin-top: 110px;
 }
 
+header div {
+	margin-top: 150px;
+}
+
 header img {
-	bo
+	border-radius: 100%;
+	margin: 0px 15px;
+	box-shadow: 0px 0px 0px 5px #FF9714, 0px 0px 0px 10px #CC7910, 0px 0px 0px 15px #87500B;
 }
