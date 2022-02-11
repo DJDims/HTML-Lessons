@@ -15,7 +15,10 @@ header {
 	margin: 0px auto;
 	overflow: hidden;
 
-	border: 6px solid #946001;
+	border-top: 8px solid #5e3707;
+	border-left: 8px solid #5e3707;
+	border-bottom: 8px solid #a8650e;
+	border-right: 8px solid #a8650e;
 	border-radius: 40px;
 }
 
@@ -35,4 +38,107 @@ header img {
 	border-radius: 100%;
 	margin: 0px 15px;
 	box-shadow: 0px 0px 0px 5px #FF9714, 0px 0px 0px 10px #CC7910, 0px 0px 0px 15px #87500B;
+}
+
+.firstSection {
+	width: 1100px;
+	background: rgba(255, 255, 255, 30%);
+	padding: 20px;
+	margin: 0px auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 0px;
+}
+
+.firstArticle {
+	background-color: rgb(255, 255, 255);
+	padding: 10px;	
+	font-style: italic;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	color: black;
+	text-align: justify;
+}
+
+section {
+	width: 1100px;
+	border-top: 8px solid #5e3707;
+	border-left: 8px solid #5e3707;
+	border-bottom: 8px solid #a8650e;
+	border-right: 8px solid #a8650e;
+	border-radius: 20px;
+
+	margin: 0px auto;
+	margin-bottom: 20px;
+	padding: 10px;
+	background: linear-gradient(-90deg, rgba(171,107,30,1) 0%, rgba(244,182,107,1) 50%, rgba(171,107,30,1) 100%);;
+}
+
+article {
+	background-color: #af6101;
+	padding: 20px;
+	font-family: 'Neucha', cursive;
+	font-size: 20px;
+	text-align: justify;
+	overflow: hidden;
+}
+
+h3 {
+	background-color: #a8650e;
+	padding: 10px 5px;
+	width: 800px;
+	font-size: 35px;
+	font-family: 'Play', sans-serif;
+	margin-left: 50px;
+	
+	border-width: 6px;
+  	border-style: solid;
+	border-image: linear-gradient(to right, rgba(171,30,30,1), rgba(255,141,0,1)) 1;
+	text-shadow: 4px 2px 2px #AB1E1E, -4px -2px 2px #FF8D00;
+}
+
+.classificationSection {
+	width: 900px;
+}
+
+.classification {
+	background-color: white;
+	color: #FF9714;
+	font-family: 'Balsamiq Sans', cursive;
+	line-height: 30px;
+	padding: 10px;
+	width: 800px;
+	margin: 0px auto;
+	margin-bottom: 40px;
+	box-shadow: 5px 5px 4px 10px #FFF605, 10px 10px 10px 10px #2B2CFF, 15px 15px 0px 20px #AB1E1E;
+}
+
+article img {
+	width: 200px;
+	margin: 0px 10px;
+}
+
+.carImg {
+	width: 300px;
+}
+
+.shagohodImg {
+	width: 300px;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.floatRight {
+	float: right;
+}
+
+.floatBoth {
+	float: both;
+}
+
+.clearFloat {
+	clear: both;
 }
