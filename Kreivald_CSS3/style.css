@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	background: linear-gradient(0deg, rgba(255,198,105,1) 36%, rgba(255,232,207,1) 80%);
 	color: white;
@@ -32,6 +36,7 @@ h1 {
 
 header div {
 	margin-top: 150px;
+	margin-bottom: 50px;
 }
 
 header img {
@@ -61,6 +66,16 @@ header img {
 	text-align: justify;
 }
 
+li::before {
+	margin-left: 20px;
+}
+
+li::marker {
+	list-style-type: none; 
+	content: url("Images/setting.png");
+	margin-top: 5px;
+}
+
 section {
 	width: 1100px;
 	border-top: 8px solid #5e3707;
@@ -76,7 +91,7 @@ section {
 }
 
 article {
-	background-color: #af6101;
+	background-color: rgb(207, 83, 0);
 	padding: 20px;
 	font-family: 'Neucha', cursive;
 	font-size: 20px;
@@ -85,7 +100,7 @@ article {
 }
 
 h3 {
-	background-color: #a8650e;
+	background-color: rgba(255,198,105,1);
 	padding: 10px 5px;
 	width: 800px;
 	font-size: 35px;
@@ -114,7 +129,7 @@ h3 {
 	box-shadow: 5px 5px 4px 10px #FFF605, 10px 10px 10px 10px #2B2CFF, 15px 15px 0px 20px #AB1E1E;
 }
 
-article img {
+.imgSizer {
 	width: 200px;
 	margin: 0px 10px;
 }
@@ -135,10 +150,90 @@ article img {
 	float: right;
 }
 
-.floatBoth {
-	float: both;
-}
-
 .clearFloat {
 	clear: both;
+}
+
+.imgShape1 {
+	border-top: 4px solid #FF8D00;
+	border-left: 4px solid #FF8D00;
+	border-right: 4px solid #a8650e;
+	border-bottom: 4px solid #a8650e;
+	border-radius: 30px;
+}
+
+.imgShape2 {
+	border-top: 4px solid #FF0000;
+	border-right: 4px solid #FF0000;
+	border-bottom: 4px solid #AB1E1E;
+	border-left: 4px solid #AB1E1E;
+
+	border-bottom-left-radius: 60px;
+	border-bottom-right-radius: 60px;
+	border-top-right-radius: 60px;
+	border-top-left-radius: 20px;
+}
+
+.babockaMain {
+	border-radius: 100%;
+	border: 5px solid yellow;
+	width:1000px;
+	/* padding-left: 300px; */
+}
+
+.babockaMain p {
+	text-align: center;
+}
+
+.babocka1 {
+	border-bottom-left-radius: 100%;
+	border-top-right-radius: 100%;
+}
+
+.babocka2 {
+	border-bottom-right-radius: 100%;
+	border-top-left-radius: 100%;
+}
+
+.bottomImages {
+	overflow: hidden;
+	width: 1300px;
+	padding: 40px 0px;
+}
+
+.mirror {
+	transform: rotate(25deg);
+	margin-left: 130px;
+	width: 150px;
+	border: 3px solid white;
+	box-shadow: 10px 10px 17px 5px #FFAF29;
+}
+
+.mirrored {
+	transform: rotate(-155deg);
+	margin-left: 130px;
+	width: 150px;
+	border: 3px solid white;
+	opacity: 30%;
+}
+
+.firstRow {
+	margin-left: 40px;
+	width: fit-content;
+}
+
+.secondRow {
+	margin-left: -40px;
+	width: fit-content;
+}
+
+.navigation {
+	position: fixed;
+	width: 24px;
+	top: 850px;
+	left: 1870px;
+}
+
+.upArrow {
+	margin-bottom: 20px;
 }
