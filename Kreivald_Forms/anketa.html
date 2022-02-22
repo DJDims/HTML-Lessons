@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Анкета</title>
+    <link rel="stylesheet" href="anketa.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form action="">
+            <h1>АНКЕТА ПОСЕТИТЕЛЯ РЕСТОРАНА</h1>
+            <fieldset class="fieldset1">
+                <legend>Контактные данные</legend>
+                <label>Имя</label>
+                    <input type="text" placeholder="Введите Ваше имя">
+                    <br>
+                <label>Фамилия</label>
+                    <input type="text" placeholder="Введите Вашу фамилию">
+                    <br>
+                <label>E-mail</label>
+                    <input type="text" placeholder="Введите Ваш электронный адрес" class="emailInput">
+                    <br>
+                <label>Телефон</label>
+                    <input type="text" placeholder="Введите Ваш мобильный телефон">
+            </fieldset>
+            
+            <fieldset>
+                <legend>Персональная информация</legend>
+                <label>Ваш пол:</label>
+                    <input type="radio" name="gender">Мужской
+                    <input type="radio" name="gender">Женский
+                    <br>
+
+                <label>Возраст</label>
+                    <input type="number" min="6" max="80" class="ageInput">
+                    <br>
+
+                <label>Ваш любимый цвет?</label>
+                    <input type="color" name="favColor">
+                    <br>
+
+                <label>Любимая кухня</label>
+                    <select name="" id="">
+                        <option value="">Выберите из списка</option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                    <br>
+
+                <label>Какие блюда Вы хотели бы видеть в меню?</label>
+                    <br>
+                    <textarea name="" cols="50" rows="10" placeholder="Напишите свои предложения"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Оценка нашего заведения</legend>
+                <label>Дата и время посещения</label>
+                    <input class="datetime" type="datetime-local">
+                    <br>
+
+                <label>Почему вы выбрали наше заведение?</label>
+                    <br>
+                    <input class="inputMargin" type="radio" name="why">Недалеко от дома/работы
+                    <br>
+                    <input class="inputMargin" type="radio" name="why">Увидел рекламу
+                    <br>
+                    <input class="inputMargin" type="radio" name="why">Посоветовали
+                    <br>
+                    <input class="inputMargin" type="radio" name="why">Соотношение цены и качества
+                    <br>
+                
+                <label>Как вы оцениваете наше заведение? (по 5-ти балльной системе)</label><br>
+                    <input class="inputMargin rangeWidth" type="range" min="0" max="5" list="marks1">
+                    <datalist id="marks1">
+                        <option value="0" label="0"></option>
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                        <option value="4"></option>
+                        <option value="5" label="5"></option>
+                    </datalist>
+                    <br>
+                
+                <label>Как вы оцениваете наше заведение? (по 10-ти балльной системе)</label><br>
+                    <input class="inputMargin rangeWidth" type="range" min="0" max="10" list="marks2">
+                    <datalist id="marks2">
+                        <option value="0"></option>
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                        <option value="4"></option>
+                        <option value="5"></option>
+                        <option value="6"></option>
+                        <option value="7"></option>
+                        <option value="8"></option>
+                        <option value="9"></option>
+                        <option value="10"></option>
+                        <option value="11"></option>
+                    </datalist>
+                    <br>
+                
+                <label>Вы будете рекомандовать наше заведение своим знакомым?</label><br>
+                    <input class="inputMargin" type="radio" name="worth">Да<br>
+                    <input class="inputMargin" type="radio" name="worth">Нет
+            </fieldset>
+
+            <fieldset>
+                <legend>Дата заполнения анкеты</legend>
+                <label class="fillDate">Выберите дату</label> <input type="date">
+            </fieldset>
+            <div class="buttons">
+                <input class="btn" type="submit" value="Отправить">
+                <input class="btn" type="reset" value="Очистить">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

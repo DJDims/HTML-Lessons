@@ -1,0 +1,87 @@
+form {
+    width: 800px;
+    background-color: #696969;
+    color: #F5F9F2;
+    font-family: arial;
+    border-image: 10 repeating-linear-gradient(45deg, lightblue, lightblue 10px, transparent 10px, transparent 20px, red 20px, red 30px,transparent 30px, transparent 40px);
+    border-style: double;
+    border-width: 10px;
+    margin: 0px auto;
+}
+
+h1 {
+    width: 660px;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: #F8463F;
+    background-color: #A7CECC;
+    text-shadow: 5px 10px 2px #FFFFFF;
+    padding: 20px 0px;
+    border-width: 10px;
+    border-style: solid;
+    border-image: linear-gradient(to right, red,red);
+}
+
+.textInput {
+    background-color: #A7CECC;
+    border-color: #F8463F;
+    border-radius: 10px;
+    border-style: solid;
+
+    margin: 10px 5px;
+    height: 35px;
+    width: 250px;
+}
+
+.emailInput {
+    background-color: #F8463F;
+    border-color: #A7CECC;
+}
+
+label {
+    margin-left: 70px;
+    font-size: 25px;
+}
+
+.spinner {
+    background-color: #F8463F;
+    border-color: #A7CECC;
+    border-radius: 0px;
+    color: #240BFC;
+    height: 30px;
+    width: 90px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+select {
+    border-color: #6B8DC3;
+    background-color: #A7CECC;
+}
+
+textarea {
+    background-color: #A7CECC;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px 1px #F8463F;
+    margin-left: 70px;
+    width: 450px;
+    margin-top: 20px;
+}
+
+.radio {
+    margin-left: 75px;
+}
+
+.date {
+    background-color: #F8463F;
+    border-radius: 20px;
+    border: 3px solid #A7CECC;
+    color: white;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
