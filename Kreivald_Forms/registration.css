@@ -7,6 +7,7 @@ form {
     border-style: double;
     border-width: 10px;
     margin: 0px auto;
+    padding-bottom: 20px;
 }
 
 h1 {
@@ -84,4 +85,21 @@ textarea {
     height: 50px;
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 150px;
+    border-radius: 15px;
+    background-color: #A7CECC;
+    border: 3px solid #F8463F;
+    height: 30px;
+    color: #F8463F;
+    font-weight: 700;
+}
+
+.btnHolder {
+    width: 320px;
+    margin: 0px auto;
+    font-size: 25px;
 }
