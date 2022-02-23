@@ -1,0 +1,19 @@
+.wrapper {
+    width: 1000px;
+    margin: 0px auto;
+    background-color: #ececec;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New';
+}
+
+.images {
+    margin: 0px auto;
+    width: 680px;
+}
+
+img {
+    width: 680px;
+}
