@@ -1,0 +1,49 @@
+.wrapper {
+    width: 1440px;
+    margin: auto;
+    font-family: Arial;
+}
+
+header {
+    width: 1440px;
+    height: 100px;
+}
+
+header img {
+    float: left;
+}
+
+header p {
+    float: right;
+}
+
+.navigation {
+    width: 220px;
+    height: 353px;
+    float: left;
+}
+
+main {
+    width: 830px;
+    height: 752px;
+    float: left;
+}
+
+article {
+    width: 379px;
+    height: 221px;
+
+    float: left;
+    text-align: justify;
+}
+
+.news {
+    width: 342px;
+    height: 752px;
+    float: left;
+}
+
+footer {
+    width: 1440px;
+    height: 100px;
+}
