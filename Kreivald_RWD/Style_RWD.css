@@ -2,7 +2,6 @@
 .wrapper {
     width: 75%;
     margin: 0px auto;
-    transition-duration: 0.8s;
 }
 
 header {
@@ -153,7 +152,13 @@ footer {
 }
 
 /* ---------- Медиа запросы ----------*/
-@media (min-width: 960px) and (max-width: 1440px) {
+@media (min-width: 1440px) {
+    .wrapper {
+        width: 90%;
+    }
+}
+
+@media (min-width: 960px) and (max-width: 1439px) {
     .navigation {
         width: 100%;
         text-align: center;
