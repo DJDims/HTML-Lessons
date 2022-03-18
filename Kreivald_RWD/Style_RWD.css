@@ -150,7 +150,7 @@ footer {
 }
 
 /* ---------- Медиа запросы ----------*/
-@media (min-width: 1440px) {
+@media (min-width: 1440px) and (max-width: 1700px) {
     .wrapper {
         width: 90%;
     }
@@ -223,6 +223,7 @@ footer {
 
     main section article {
         width: 100%;
+        height: auto;
     }
 
     .news {
