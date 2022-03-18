@@ -81,6 +81,7 @@ main section article img {
 
 span {
     font-weight: bold;
+    font-family: tahoma;
 }
 
 .HtmlSpan {
@@ -199,6 +200,11 @@ footer {
 }
 
 @media (max-width: 959px) {
+
+    .logo {
+        width: 25%;
+    }
+
     .navigation {
         width: 100%;
         background-color: #018068;
