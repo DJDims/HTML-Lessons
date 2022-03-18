@@ -24,7 +24,6 @@ header p {
 .navigation {
     width: 15.27777777777778%; /* 220/1440 */
     float: left;
-    /* background-color: red; */
 }
 
 li {
@@ -40,27 +39,22 @@ main {
     margin-left: 1.666666666666667%;
     margin-right: 1.666666666666667%;
     float: left;
-    /* background-color: green; */
 }
 
 main div {
     width: 100%;
-    /* background-color: rgb(255, 145, 0); */
 }
 
 main section {
     width: 45.66265060240964%; /* 379/830 */
     margin-left: 2.891566265060241%; /* 24 / 830 */
     float: left;
-    /* background-color: rebeccapurple; */
 }
 
 main section article {
     height: 185px;
     margin-bottom: 4.819277108433735%; /* 24 / 498 */
     text-align: justify;
-
-    /* background-color: yellowgreen; */
 }
 
 main section article img {
@@ -71,7 +65,6 @@ main section article img {
 
 .bottomParagraph {
     width: 94.21686746987952%; /* 782 / 830 */
-    /* background-color: blue; */
     height: auto;
 }
 
@@ -140,16 +133,20 @@ footer {
 }
 
 .tel {
+    width: 33%;
     float: left;
 }
-
+    
 .site {
+    width: 33%;
     float: left;
-    margin-left: 33.33333333333333%;
+    text-align: center;
 }
-
+    
 .adres {
-    float: right;
+    width: 33%;
+    float: left;
+    text-align: right;
 }
 
 /* ---------- Медиа запросы ----------*/
@@ -193,10 +190,6 @@ footer {
     .news .newsLeft {
         margin-right: 3.069053708439898%; /* 24 / 782 */
     }
-
-    .site {
-        margin-left: 23%;
-    }
 }
 
 @media (max-width: 959px) {
@@ -221,7 +214,6 @@ footer {
 
     main {
         width: 100%;
-        /* margin-bottom: 35%; */
         margin-bottom: 100px;
     }
 
@@ -249,21 +241,5 @@ footer {
 
     .news .newsLeft {
         margin-right: 3.069053708439898%; /* 24 / 782 */
-    }
-
-    footer {
-        /* background-color: blue; */
-    }
-
-    footer p {
-        float: none;
-        margin: 0%;
-        width: 100%;
-        text-align: center;
-        /* background-color: red; */
-    }
-
-    .site {
-        margin: 0;
     }
 }
