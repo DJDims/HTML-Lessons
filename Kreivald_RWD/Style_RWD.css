@@ -151,7 +151,7 @@ footer {
 /* ---------- Медиа запросы ----------*/
 @media (min-width: 1440px) and (max-width: 1700px) {
     .wrapper {
-        width: 90%;
+        width: 100%;
     }
 }
 
