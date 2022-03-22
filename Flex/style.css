@@ -1,0 +1,63 @@
+.wrapper {
+    width: 1480px;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: aqua;
+}
+
+.headerLogo {
+    display: flex;
+    background-color: blueviolet;
+    margin: 0.5em;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav {
+    background-color: blue;
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+nav ul li {
+    padding: 0.5em 1em;
+
+}
+
+main {
+    width: 98%;
+    background-color: brown;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    width: 24.25%;
+    background-color: white;
+}
+
+aside p {
+    text-align: justify;
+}
+
+aside img {
+    width: 100%;
+}
