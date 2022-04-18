@@ -1,0 +1,81 @@
+body {
+    margin: 0px;
+    background-color: red;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.pilot {
+    width: 270px;
+    position: absolute;
+    right: 0px;
+    top: 150px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #D9F4FF;
+    position: sticky;
+    top: 0px;
+}
+
+header nav {
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    font-weight: bold;
+    font-family: 'Roboto';
+    font-size: 24px;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.logo {
+    width: 140px;
+}
+
+
+#main {
+    background-color: #D9F4FF;
+    margin-top: -75px;
+    height: 679px;
+}
+
+#main div {
+    width: 1000px;
+    margin-left: 93px;
+    margin-top: 111px;
+}
+
+#main h1 {
+    font-size: 90px;
+    font-family: 'Roboto';
+}
+
+#main p {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 200;
+}
+
+#main button {
+    border-radius: 40px;
+    background-color: #FFFFFF;
+    width: 582px;
+    height: 98px;
+    border: none;
+    font-size: 48px;
+    font-weight: bold;
+}
