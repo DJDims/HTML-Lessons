@@ -32,83 +32,113 @@
             </div>
         </section>
         <section id="about"><!-- Об акции -->
-            <section>
+            <section class="aboutLeft">
                 <h1>Об акции</h1>
                 <div class="aboutContent">
                     <p>Турция - страна чудес. Очень многие путешевствуют в эту замечательную страну каждый год. И поэтому нам хочется познакомить Вас с этой удивительной страной.</p>
                     <p>С 01.04 - 21.04 все  туры в Турцию со скидкой до 20%. Если возмёте тур для троих и больше, получите дополнительные 5% к вашей скидке.</p>
                 </div>
             </section>
-            <section class="aboutLeft">
+            <section class="aboutRight">
                 <h1>Приемущества</h1>
                 <div class="aboutContent">
-                    <div>
-                        <h2>Поддержка 24/7</h2>
-                        <img src="Images/tech-support.png" alt="">
-                        <p>Наша поддержка всегда на связи и готова помочь Вам.</p>
+                    <div class="cards">
+                        <div class="card">
+                            <img src="Images/tech-support.png" alt="">
+                            <div class="cardText">
+                                <h2>Поддержка 24/7</h2>
+                                <p>Наша поддержка всегда на связи и готова помочь Вам.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="Images/globe.png" alt="">
+                            <div class="cardText">
+                                <h2>Гиды на любой вкус</h2>
+                                <p>У нас более 150 гидов на разных языках таких как Английский, Русский и прочее.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <h2>Гиды на любой вкус</h2>
-                        <img src="Images/globe.png" alt="">
-                        <p>У нас более 150 гидов на разных языках таких как Английский, Русский и прочее.</p>
-                    </div>
-                    <div>
-                        <h2>Незабываемые ощущения</h2>
-                        <img src="Images/boom.png" alt="">
-                        <p>Наши туры продуманы так, чтобы Вам было интересно</p>
-                    </div>
-                    <div>
-                        <h2>Лучшие цены</h2>
-                        <img src="Images/money.png" alt="">
-                        <p>Мы понимаем как Вам хочется путешествовать, поэтому мы никогда не ставим высокие цены.</p>
+                    <div class="cards">
+                        <div class="card">
+                            <img src="Images/boom.png" alt="">
+                            <div class="cardText">
+                                <h2>Незабываемые ощущения</h2>
+                                <p>Наши туры продуманы так, чтобы Вам было интересно</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="Images/money.png" alt="">
+                            <div class="cardText">
+                                <h2>Лучшие цены</h2>
+                                <p>Мы понимаем как Вам хочется путешествовать, поэтому мы никогда не ставим высокие цены.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
         </section>
         <section id="prices"><!-- Цены -->
             <h1>Наши предложения</h1>
-            <section>
-                <img src="Images/place1.jpg" alt="">
-                <p>Собор Святой Софии</p>
-                <p>7 дн. - <span class="newPrice">828€</span><span class="oldPrice">919€</span></p>
-                <p>21 дн. - <span class="newPrice">2484€</span><span class="oldPrice">2727€</span></p>
-                <button>Заказать</button>
-            </section>
-            <section>
-                <img src="Images/place2.jpg" alt="">
-                <p>Галатская башня</p>
-                <p>7 дн. - <span class="newPrice">719€</span><span class="oldPrice">899€</span></p>
-                <p>21 дн. - <span class="newPrice">2157€</span><span class="oldPrice">2697€</span></p>
-                <button>Заказать</button>
-            </section>
-            <section>
-                <img src="Images/place3.jpg" alt="">
-                <p>Каппадокия</p>
-                <p>7 дн. - <span class="newPrice">699€</span><span class="oldPrice">789€</span></p>
-                <p>21 дн. - <span class="newPrice">1918€</span><span class="oldPrice">2098€</span></p>
-                <button>Заказать</button>
-            </section>
-            <section>
-                <img src="Images/place4.jpg" alt="">
-                <p>Курорт Памуккале</p>
-                <p>7 дн. - <span class="newPrice">746€</span><span class="oldPrice">829€</span></p>
-                <p>21 дн. - <span class="newPrice">2238€</span><span class="oldPrice">2487€</span></p>
-                <button>Заказать</button>
-            </section>
-            <section>
-                <img src="Images/place5.jpg" alt="">
-                <p>Грин Каньон</p>
-                <p>7 дн. - <span class="newPrice">594€</span><span class="oldPrice">699€</span></p>
-                <p>21 дн. - <span class="newPrice">1782€</span><span class="oldPrice">2098€</span></p>
-                <button>Заказать</button>
-            </section>
-            <section>
-                <img src="Images/place6.jpg" alt="">
-                <p>Бассейн Клеопатры</p>
-                <p>7 дн. - <span class="newPrice">632€</span><span class="oldPrice">789€</span></p>
-                <p>21 дн. - <span class="newPrice">1896€</span><span class="oldPrice">2367€</span></p>
-                <button>Заказать</button>
-            </section>
+            <div class="priceBloks">
+                <div class="priceRow">
+                    <div class="priceBlock">
+                        <img src="Images/place1.jpg" alt="">
+                        <div class="priceBlockText">
+                            <p class="placeName">Собор Святой Софии</p>
+                            <p>7 дн. - <span class="newPrice">828€</span> <span class="oldPrice">919€</span></p>
+                            <p>21 дн. - <span class="newPrice">2484€</span> <span class="oldPrice">2727€</span></p>
+                            <button>Заказать</button>
+                        </div>
+                    </div>
+                    <div class="priceBlock">
+                        <img src="Images/place2.jpg" alt="">
+                        <div class="priceBlockText">
+                            <p class="placeName">Галатская башня</p>
+                            <p>7 дн. - <span class="newPrice">719€</span> <span class="oldPrice">899€</span></p>
+                            <p>21 дн. - <span class="newPrice">2157€</span> <span class="oldPrice">2697€</span></p>
+                            <button>Заказать</button>
+                        </div>
+                    </div>
+                    <div class="priceBlock">
+                        <img src="Images/place3.jpg" alt="">
+                        <div class="priceBlockText">
+                            <p class="placeName">Каппадокия</p>
+                            <p>7 дн. - <span class="newPrice">699€</span> <span class="oldPrice">789€</span></p>
+                            <p>21 дн. - <span class="newPrice">1918€</span> <span class="oldPrice">2098€</span></p>
+                            <button>Заказать</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="priceRow">
+                    <div class="priceBlock">
+                        <img src="Images/place4.jpg" alt="">
+                        <div class="priceBlockText">
+                            <p class="placeName">Курорт Памуккале</p>
+                            <p>7 дн. - <span class="newPrice">746€</span> <span class="oldPrice">829€</span></p>
+                            <p>21 дн. - <span class="newPrice">2238€</span> <span class="oldPrice">2487€</span></p>
+                            <button>Заказать</button>
+                        </div>
+                    </div>
+                    <div class="priceBlock">
+                        <img src="Images/place5.jpg" alt="">
+                        <div class="priceBlockText">
+                            <p class="placeName">Грин Каньон</p>
+                            <p>7 дн. - <span class="newPrice">594€</span> <span class="oldPrice">699€</span></p>
+                            <p>21 дн. - <span class="newPrice">1782€</span> <span class="oldPrice">2098€</span></p>
+                            <button>Заказать</button>
+                        </div>
+                    </div>
+                    <div class="priceBlock">
+                        <img src="Images/place6.jpg" alt="">
+                        <div class="priceBlockText">
+                            <p class="placeName">Бассейн Клеопатры</p>
+                            <p>7 дн. - <span class="newPrice">632€</span> <span class="oldPrice">789€</span></p>
+                            <p>21 дн. - <span class="newPrice">1896€</span> <span class="oldPrice">2367€</span></p>
+                            <button>Заказать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <section id="feedback"><!-- Отзывы -->
             <div>

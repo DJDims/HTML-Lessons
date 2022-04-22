@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0px;
     font-family: 'Roboto';
@@ -86,7 +90,7 @@ header nav ul a {
 
 #about section {
     width: 700px;
-    margin-top: 13.888888888888888888888888888889%;
+    margin-top: 9.2592592592592592592592592592593%;
 }
 
 #about h1 {
@@ -109,6 +113,116 @@ header nav ul a {
     border: #000000 solid 1px;
 }
 
-.aboutContent p {
+.aboutLeft p {
+    font-size: 24px;
+    margin: 16px 32px;
+    text-align: justify;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cardText {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardText h2 {
+    text-align: center;
+}
+
+.cardText p {
+    text-align: justify;
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+}
+
+#prices h1 {
+    color: #DA0000;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.priceBloks {
+    border: 4px solid #000000;
+    border-radius: 10px;
+    width: 82.083333333333333333333333333333%;
+    margin: 0 auto;
+}
+
+.priceRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.priceBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 28%;
+}
+
+.priceBlockText {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.171875%;
+}
+
+.priceBlockText p {
+    margin-bottom: 3px;
+    text-align: center;
+    width: 100%;
+}
+
+.priceBlockText button {
+    background-color: #D9F4FF;
+    border-radius: 40px;
+    border: none;
+    width: 149px;
+    height: 37px;
+    font-size: 20px;
+}
+
+#prices img {
+    width: 259px;
+    height: 167px;
+}
+
+.newPrice {
+    color: #FF0000;
+}
+
+.oldPrice {
+    text-decoration: line-through;
+}
+
+.placeName {
+    font-weight: bold;
     font-size: 24px;
 }
+
+#feedback {
+    margin-top: 4.7222222222222222222222222222222%;
+    display: flex;
+    ;
+}
+
+#feedback h1 {
+    text-align: center;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    width: 41.666666666666666666666666666667%;
+}
+
