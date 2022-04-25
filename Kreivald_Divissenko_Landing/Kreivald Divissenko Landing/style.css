@@ -216,13 +216,185 @@ header nav ul a {
 #feedback {
     margin-top: 4.7222222222222222222222222222222%;
     display: flex;
-    ;
+    justify-content: center;
+}
+
+.comments {
+    width: 41.666666666666666666666666666667%;
 }
 
 #feedback h1 {
     text-align: center;
     border: 1px solid #000000;
     border-radius: 20px;
-    width: 41.666666666666666666666666666667%;
+    width: 100%;
+    height: 76px;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.comment {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin-bottom: 18px;
+}
+
+.nameAndStars {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.stars {
+    width: 168px;
+    height: 49px;
+    margin-right: 5%;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-right: 3.125%;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+
+.commentContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.commentContent p {
+    text-align: justify;
+    margin-right: 4.125%;
+    margin-top: 0px;
+}
+
+.userName {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#faq h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+#faq div {
+    width: 87.395833333333333333333333333333%;
+    border: 4px solid #000000;
+    border-radius: 20px;
+    margin: 0 auto;
+    background-color: #D9F4FF;
+    box-sizing: border-box;
+    padding: 2.9797377830750893921334922526818% 1.4898688915375446960667461263409%;
+}
+
+#faq ul {
+    margin-bottom: 0px;
+}
+
+#faq ul li {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#faq p {
+    font-size: 24px;
+    text-align: justify;
+    margin-top: 0px;
+}
+
+#faq ol {
+    font-size: 24px;
+}
+
+#team h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+
+#team div {
+    width: 76.25%;
+    border: 4px solid #000000;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 215px;
+}
+
+#team div section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#team img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-top: 12.466124661246612466124661246612%;
+}
+
+#team p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 29.268292682926829268292682926829%;
+}
+
+#contact h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.contactContent {
+    width: 45.833333333333333333333333333333%;
+    margin: 0 auto;
+    background-color: #D9F4FF;
+    border: 4px solid #000000;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.contactContent div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3.4090909090909090909090909090909%;
+}
+
+.contactContent div p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+iframe {
+    width: 370px;
+    height: 370px;
+    margin-right: 3.9772727272727272727272727272727%;
+    margin-top: 1.7045454545454545454545454545455%;
+    margin-bottom: 1.7045454545454545454545454545455%;
+}
+
+footer {
+    
+}
