@@ -74,6 +74,13 @@ h2 {
     flex-direction: column;
     justify-content: end;
     flex-grow: 1;
+    margin-top: 20px;
+    width: 100%;
+    align-items: center;
+}
+
+.btn button {
+    width: 35%;
 }
 
 .gallery {
@@ -90,4 +97,17 @@ footer {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+}
+
+@media (max-width: 560px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .gallery {
+        justify-content: center;
+    }
 }

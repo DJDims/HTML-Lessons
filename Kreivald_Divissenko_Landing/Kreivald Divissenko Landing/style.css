@@ -164,7 +164,7 @@ header nav ul a {
 .priceRow {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .priceBlock {
@@ -464,4 +464,10 @@ footer {
     font-size: 24px;
     font-weight: bold;
     border-radius: 40px;
+}
+
+@media (max-width: 428px) {
+    #main {
+        background-color: red;
+    }
 }
