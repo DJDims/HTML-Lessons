@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма заявки</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img class="logo" src="Images/Turistas-logos.jpeg" alt="Лого">
+    </header>
+
+    <main>
+        <h1>Форма заявки</h1>
+        <form>
+            <div class="cols">
+                <div class="leftCol">
+                    <label>Имя</label>
+                    <input type="text">
+                    <label>Номер телефона</label>
+                    <input type="text">
+                    <label>Дата отправления</label>
+                    <input class="date" type="date">
+                </div>
+                <div class="rightCol">
+                    <label>Фамилия</label>
+                    <input type="text">
+                    <label>Адрес эл. почты</label>
+                    <input type="email">
+                    <label class="travelLongTitle">На сколько дней <br>Вы хотите отправиться</label><br>
+                    <input type="number" class="travelLong">
+                </div>
+            </div>
+            <div class="btns">
+                <a href="index.html">Вернуться назад</a>
+                <button type="submit">Заказать</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

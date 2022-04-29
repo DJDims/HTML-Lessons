@@ -1,5 +1,5 @@
 @media (max-width: 428px) {
-    #main {
-        background-color: red;
+    header nav ul {
+        font-size: 11px;
     }
 }

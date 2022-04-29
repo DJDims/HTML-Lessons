@@ -1,0 +1,125 @@
+body {
+    margin: 0px;
+    font-family: 'Roboto';
+}
+
+.logo {
+    width: 140px;
+    margin-left: 4.84375%;
+}
+
+main {
+    width: 32.604166666666666666666666666667%;
+    margin: 0 auto;
+    border: 4px solid #000000;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 36px;
+}
+
+.cols {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.leftCol {
+    width: 32.747603833865814696485623003195%;
+}
+
+.rightCol {
+    width: 45.686900958466453674121405750799%;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+
+.date {
+    border: 1px solid #000000;
+    background: white url(Images/calendar.png) left no-repeat;
+}
+
+.travelLong {
+    width: 24.475524475524475524475524475524%;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 16px;
+    margin-bottom: 52px;
+    align-items: center;
+}
+
+button {
+    width: 198px;
+    height: 63px;
+    background-color: #D9F4FF;
+    border-radius: 20px;
+    border: none;
+    font-size: 24px;
+}
+
+a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #4200FF;
+}
+
+@media(max-width: 428px) {
+
+    header {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .logo {
+        margin-left: 0;
+    }
+
+    main {
+        width: 90.654205607476635514018691588785%;
+    }
+
+    input {
+        height: 25px;
+    }
+
+    .travelLongTitle {
+        width: 100%;
+    }
+
+    .btns {
+        justify-content: space-between;
+        padding-left: 19px;
+        padding-right: 25px;
+    }
+
+    button {
+        width: 90px;
+        height: 26px;
+        font-size: 16px;
+    }
+
+    a {
+        font-size: 12px;
+    }
+
+}
