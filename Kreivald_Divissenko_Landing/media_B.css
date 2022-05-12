@@ -1,0 +1,56 @@
+@media (max-width: 428px) {
+    
+    .pilot {
+        top: 20px;
+    }
+    
+    header nav ul {
+        font-size: 11px;
+        padding: 0;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    #main {
+        height: auto;
+    }
+
+    #main div {
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+        margin-top: 300px;
+        margin-bottom: 0px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #main h1 {
+        font-size: 48px;
+    }
+
+    #main p {
+        font-size: 16px;
+        font-weight: 200;
+    }
+
+    #main button {
+        width: 44.392523364485981308411214953271%;
+        height: 50px;
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    #about {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #about section {
+        width: 100%;
+    }
+}
