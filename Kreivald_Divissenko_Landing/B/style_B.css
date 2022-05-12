@@ -169,9 +169,10 @@ header nav ul a {
 
 .priceBlock {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    width: 28%;
+    width: 33%;
+
 }
 
 .priceBlockText {
@@ -180,19 +181,27 @@ header nav ul a {
     padding-left: 1.171875%;
 }
 
-.priceBlockText p {
+.priceBlock p {
+    margin-top: 3px;
     margin-bottom: 3px;
     text-align: center;
     width: 100%;
 }
 
-.priceBlockText button {
+.priceBlock a {
     background-color: #D9F4FF;
     border-radius: 40px;
     border: none;
     width: 149px;
     height: 37px;
     font-size: 20px;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    text-decoration: none;
 }
 
 #prices img {
@@ -241,6 +250,35 @@ header nav ul a {
     border: 1px solid #000000;
     border-radius: 10px;
     margin-bottom: 18px;
+}
+
+.addComment {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.addComment p {
+    margin-left: 30px;
+    margin-bottom: 3px;
+}
+
+.addCommentTools {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.addCommentTools input {
+    width: 66%;
+}
+.addCommentTools button {
+    background-color: #D9F4FF;
+    border-radius: 40px;
+    border: none;
+    width: 149px;
+    height: 37px;
 }
 
 .nameAndStars {
