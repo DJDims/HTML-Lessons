@@ -11,13 +11,6 @@ body {
     width: 100%;
 }
 
-.pilot {
-    width: 17.03125%;
-    position: absolute;
-    right: 0px;
-    top: 150px;
-}
-
 header {
     display: flex;
     align-items: center;
@@ -49,11 +42,16 @@ header nav ul a {
     width: 140px;
 }
 
+.pilot {
+    height: 810px;
+}
+
 #main {
     background-color: #D9F4FF;
-    height: 700px;
     width: 100%;
-    padding-top: 111px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #main div {
@@ -379,6 +377,14 @@ header nav ul a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    height: 300px;
+    padding-bottom: 30px;
+}
+
+#team div section p {
+    margin: 0;
+    padding: 0;
 }
 
 #team img {

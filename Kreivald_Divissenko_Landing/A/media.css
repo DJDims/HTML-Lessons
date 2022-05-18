@@ -21,7 +21,7 @@
         width: 100%;
         height: auto;
         margin-left: 0px;
-        margin-top: 300px;
+        /* margin-top: 300px; */
         margin-bottom: 0px;
 
         display: flex;
@@ -53,4 +53,6 @@
     #about section {
         width: 100%;
     }
+
+    
 }
