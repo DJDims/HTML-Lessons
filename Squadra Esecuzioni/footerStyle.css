@@ -1,3 +1,77 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    background-image: url(Images/dark-brown-tree-bark-texture-horizontal-trexture-backdrop-photo.jpg);
+}
+
+footer div {
+    width: 33.3333333333333333333%;
+}
+
+footer p {
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 0px #000000, -2px -2px 0px #000000, 2px -2px 0px #000000, -2px 2px 0px #000000, 0px 2px 0px #000000, 0px -2px 0px #000000, 2px 0px 0px #000000, -2px 0px 0px #000000;
+}
+
+#copyright {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+    text-shadow: none;
+}
+
+#medias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #medias img {
-    
+    width: 50px;
+    margin-right: 14px;
+}
+
+#medias p {
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-shadow: none;
+}
+
+.mediaRow {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+
+.media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    margin-right: 37px;
+}
+
+#footer2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
