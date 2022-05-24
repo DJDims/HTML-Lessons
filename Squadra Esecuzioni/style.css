@@ -6,3 +6,25 @@ body {
 #pageName {
     background-image: url(Images/main_bg.png);
 }
+
+#pageName p {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    width: 100%;
+}
+
+section p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+
+    width: 800px;
+}

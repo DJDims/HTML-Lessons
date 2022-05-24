@@ -5,7 +5,7 @@ header {
 }
 
 #topHeader {
-    background-color: #DCD6C2;
+    background-color: #957559;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -30,6 +30,15 @@ header {
 #topHeader3 {
     align-items: flex-end;
     padding-right: 2.083333333333333%;
+}
+
+#topHeader3 input {
+    width: 274px;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    margin-top: 5px;
 }
 
 #topHeader p {
@@ -88,7 +97,6 @@ li a:hover {
 }
 
 #pageName {
-    /* background-image: url(Images/main_bg.png); */
     height: 449px;
     margin-bottom: 70px;
     display: flex;
