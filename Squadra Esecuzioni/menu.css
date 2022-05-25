@@ -6,3 +6,21 @@ body {
 #pageName {
     background-image: url(Images/menu_bg.png);
 }
+
+#miniNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+
+#miniNav ul {
+    width: 66.51041666666667%;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#miniNav ul li {
+    margin: 10px 20px;
+}

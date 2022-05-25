@@ -11,20 +11,40 @@ body {
     text-align: center;
 }
 
-section {
+main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin: 50px  0;
+}
 
-    width: 100%;
+section {
+    display: flex;
+    flex-direction: column;
+    width: 46.25%;
 }
 
 section p {
-    font-family: 'Inter';
-    font-style: normal;
+    font-family: 'Kristi';
+    font-style: italic;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 39px;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding: 10px 20px;
 
-    width: 800px;
+    background: #E1CDBB;
+    box-shadow: -20px 35px 7px rgba(0, 0, 0, 0.25);
+}
+
+.paragraphHeader {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+section img {
+    height: 471px;
 }
