@@ -1,10 +1,10 @@
 body {
-    background: url("Images/bg1.png");
+    background: url("../Images/common/background.png");
     margin: 0;
 }
 
 #pageName {
-    background-image: url(Images/main_bg.png);
+    background-image: url(../Images/main/bg.png);
 }
 
 #pageName p {

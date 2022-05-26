@@ -1,17 +1,16 @@
 body {
-    background: url("Images/bg1.png");
+    background: url("../Images/common/background.png");
     margin: 0;
 }
 
 #pageName {
-    background-image: url(Images/menu_bg.png);
+    background-image: url(../Images/menu/bg.png);
 }
 
 #miniNav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* flex-wrap: wrap; */
 }
 
 #miniNav ul {
@@ -24,3 +23,4 @@ body {
 #miniNav ul li {
     margin: 10px 20px;
 }
+

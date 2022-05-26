@@ -50,7 +50,6 @@ header {
     color: #FFFFFF;
     text-shadow: 2px 2px 0px #000000, -2px -2px 0px #000000, 2px -2px 0px #000000, -2px 2px 0px #000000, 0px 2px 0px #000000, 0px -2px 0px #000000, 2px 0px 0px #000000, -2px 0px 0px #000000;
     margin: 0;
-    /* margin-bottom: 50px; */
 }
 
 #topHeader a {
@@ -65,7 +64,7 @@ header {
 }
 
 #menu {
-    background-image: url(Images/dark-brown-tree-bark-texture-horizontal-trexture-backdrop-photo.jpg);
+    background-image: url(../Images/common/tree_texture.jpg);
 }
 
 nav {

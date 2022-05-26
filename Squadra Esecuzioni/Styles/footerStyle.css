@@ -1,8 +1,7 @@
 footer {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
-    background-image: url(Images/dark-brown-tree-bark-texture-horizontal-trexture-backdrop-photo.jpg);
+    background-image: url(../Images/common/tree_texture.jpg);
 }
 
 footer div {

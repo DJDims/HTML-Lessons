@@ -1,0 +1,8 @@
+body {
+    background: url("../Images/common/background.png");
+    margin: 0;
+}
+
+#pageName {
+    background-image: url(../Images/delivery/bg.png);
+}
