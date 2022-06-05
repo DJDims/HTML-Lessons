@@ -52,15 +52,15 @@ footer p {
 .mediaRow {
     display: flex;
     flex-direction: row;
-    width: auto;
+    justify-content: space-between;
+    width: 50%;
 }
 
 .media {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: auto;
-    margin-right: 37px;
+    width: 50%;
 }
 
 #footer2 {

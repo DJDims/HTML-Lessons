@@ -28,8 +28,27 @@ header {
 }
 
 #topHeader3 {
-    align-items: flex-end;
+    flex-direction: row !important;
     padding-right: 2.083333333333333%;
+}
+
+#topHeader3Forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50% !important;
+}
+
+#topHeader3Forms div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: start;
+    font-family: 'Inria Sans' !important;
+}
+
+#cartImg {
+    width: 108px;
 }
 
 #topHeader3 input {
@@ -42,7 +61,8 @@ header {
 }
 
 #topHeader p {
-    font-family: 'Inria Sans';
+    width: auto;
+    font-family: 'Source Sans Pro' !important;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -56,7 +76,14 @@ header {
     text-decoration: none;
     color: inherit;
     text-shadow: inherit;
-    font-family: 'Inria Sans';
+    font-family: 'Source Sans Pro' !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 0px #000000, -2px -2px 0px #000000, 2px -2px 0px #000000, -2px 2px 0px #000000, 0px 2px 0px #000000, 0px -2px 0px #000000, 2px 0px 0px #000000, -2px 0px 0px #000000;
+    margin: 0;
 }
 
 #logo {
@@ -104,7 +131,7 @@ li a:hover {
     justify-content: center;
 }
 
-#pageName p {
+#pageName h1 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;

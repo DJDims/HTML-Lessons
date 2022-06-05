@@ -12,11 +12,9 @@
 
     <!-- Шрифты -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
     <!-- Шрифты -->
 </head>
 <body>
@@ -29,10 +27,15 @@
                 <a href="index.html"><img id="logo" src="Images/common/logo.png" alt="Уютный уголок лого"></a>
             </div>
             <div id="topHeader3">
-                <p><a href="#">Вход</a> | <a href="#">Регистрация</a></p>
-                <form action="">
-                    <input placeholder="Поиск" type="text">
-                </form>
+                <div>
+                    <a href="cart.html"><img id="cartImg" src="Images/common/cart.png" alt=""></a>
+                </div>
+                <div id="topHeader3Forms">
+                    <p><a href="#">Вход</a> | <a href="#">Регистрация</a></p>
+                    <form action="">
+                        <input placeholder="Поиск" type="text">
+                    </form>
+                </div>
             </div>
         </div>
         <div id="menu">
@@ -46,7 +49,7 @@
                 </ul>
             </nav>
             <div id="pageName">
-                <p>Меню</p>
+                <h1>Меню</h1>
             </div>
         </div>
     </header>
@@ -66,522 +69,622 @@
 
         <section id="hotFood">
             <h2>Горячие блюда</h2>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3>СТЕЙК ИЗ ГОВЯДИНЫ</h3>
-                    <p>Состав: говядина, перец горошком, лавровый лист, чеснок, соль, растительное масло</p>
-                    <div class="cardPrice">
-                        <p>9.70€</p>
-                        <button>Добавить в корзину</button>
+            <div class="album">
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3>СТЕЙК ИЗ ГОВЯДИНЫ</h3>
+                        <p>Состав: говядина, перец горошком, лавровый лист, чеснок, соль, растительное масло</p>
+                        <div class="cardPrice">
+                            <p>9.70€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3>БИФШТЕКС РУБЛЕННЫЙ ИЗ ГОВЯДИНЫ</h3>
-                    <p>Состав: говядина, перец черный молотый, чеснок, соль, растительное масло</p>
-                    <div class="cardPrice">
-                        <p>9.20€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3>БИФШТCЕКС ИЗ ГОВЯДИНЫ</h3>
+                        <p>Состав: говядина, перец черный молотый, чеснок, соль, растительное масло</p>
+                        <div class="cardPrice">
+                            <p>9.20€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3>КАРТОШКА ПО ДЕРЕВЕНСКИ</h3>
-                    <p>Состав: картошка, растительное масло, куркума, паприка, перец черный молотый, соль</p>
-                    <div class="cardPrice">
-                        <p>2.30€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3>КАРТОШКА ПО ДЕРЕВЕНСКИ</h3>
+                        <p>Состав: картошка, растительное масло, куркума, паприка, перец черный молотый, соль</p>
+                        <div class="cardPrice">
+                            <p>2.30€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
+                
         </section>
         <section id="vegans">
             <h2>Веганское меню</h2>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3>САЛАТ ЧУКА</h3>
-                    <p>Состав:  водоросли чука и вакамэ, салат, томаты черри и кунжут, ореховый соус</p>
-                    <div class="cardPrice">
-                        <p>4.70€</p>
-                        <button>Добавить в корзину</button>
+            <div class="album">
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3>САЛАТ ЧУКА</h3>
+                        <p>Состав:  водоросли чука и вакамэ, салат, томаты черри и кунжут, ореховый соус</p>
+                        <div class="cardPrice">
+                            <p>4.70€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3>ПОКЕ С ТОФУ</h3>
-                    <p>Состав: рис, тофу, огурцы, помидоры черри, водоросли чука и нори, бобы эдадамэ, чипсы харумаки и кунжут, соус Поке</p>
-                    <div class="cardPrice">
-                        <p>6.90€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3>ПОКЕ С ТОФУ</h3>
+                        <p>Состав: рис, тофу, огурцы, помидоры черри, водоросли чука и нори, бобы эдадамэ, чипсы харумаки и кунжут, соус Поке</p>
+                        <div class="cardPrice">
+                            <p>6.90€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3>МИКС-САЛАТ</h3>
-                    <p>Состав: с дрессингом Чинсу, кунжутным маслом и соком лайма, ореховый соус</p>
-                    <div class="cardPrice">
-                        <p>3.20€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3>МИКС-САЛАТ</h3>
+                        <p>Состав: с дрессингом Чинсу, кунжутным маслом и соком лайма, ореховый соус</p>
+                        <div class="cardPrice">
+                            <p>3.20€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <section id="salats">
             <h2>Салаты</h2>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3>САЛАТ ЦЕЗАРЬ С КУРИЦЕЙ</h3>
-                    <p>Состав: салат Айсберг, куриное филе, помидоры черри, батон, пармезан, чеснок, растительное масло, соль, перец черный молотый</p>
-                    <div class="cardPrice">
-                        <p>9.70€</p>
-                        <button>Добавить в корзину</button>
+            <div class="album">
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3>САЛАТ ЦЕЗАРЬ С КУРИЦЕЙ</h3>
+                        <p>Состав: салат Айсберг, куриное филе, помидоры черри, батон, пармезан, чеснок, растительное масло, соль, перец черный молотый</p>
+                        <div class="cardPrice">
+                            <p>9.70€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3>ОЛИВЬЕ С ГОВЯДИНОЙ</h3>
-                    <p>Состав: говядина, картошка, морковь, лук репчатый, куриные яйца, маринованные огурцы, майонез, поваренная соль, петрушка, зелёный горошек</p>
-                    <div class="cardPrice">
-                        <p>9.20€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3>ОЛИВЬЕ С ГОВЯДИНОЙ</h3>
+                        <p>Состав: говядина, картошка, морковь, лук репчатый, куриные яйца, маринованные огурцы, майонез, поваренная соль, петрушка, зелёный горошек</p>
+                        <div class="cardPrice">
+                            <p>9.20€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3>КРАБОВЫЙ САЛАТ С КУКУРУЗОЙ</h3>
-                    <p>Состав: крабовые палочки, яйца, огурцы, кукуруза консервированая, соль, майонез, рис</p>
-                    <div class="cardPrice">
-                        <p>2.30€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3>КРАБОВЫЙ САЛАТ С КУКУРУЗОЙ</h3>
+                        <p>Состав: крабовые палочки, яйца, огурцы, кукуруза консервированая, соль, майонез, рис</p>
+                        <div class="cardPrice">
+                            <p>2.30€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <section id="kidsMenu">
             <h2>Детское меню</h2>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3>КАРТОШКА ФРИ</h3>
-                    <p>Состав: картофель, растительное масло, соль</p>
-                    <div class="cardPrice">
-                        <p>9.70€</p>
-                        <button>Добавить в корзину</button>
+            <div class="album">
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3>КАРТОШКА ФРИ</h3>
+                        <p>Состав: картофель, растительное масло, соль</p>
+                        <div class="cardPrice">
+                            <p>9.70€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3>ОМЛЕТ</h3>
-                    <p>Состав: яйцо, молоко, помидоры, сыр, петрушка, соль</p>
-                    <div class="cardPrice">
-                        <p>9.20€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3>ОМЛЕТ</h3>
+                        <p>Состав: яйцо, молоко, помидоры, сыр, петрушка, соль</p>
+                        <div class="cardPrice">
+                            <p>9.20€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3>СЫРНЫЕ ПАЛОЧКИ</h3>
-                    <p>Состав: сыр, яйцо, мука, растительное масло</p>
-                    <div class="cardPrice">
-                        <p>2.30€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3>СЫРНЫЕ ПАЛОЧКИ</h3>
+                        <p>Состав: сыр, яйцо, мука, растительное масло</p>
+                        <div class="cardPrice">
+                            <p>2.30€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3>НАГГЕТСЫ</h3>
-                    <p>Состав: куриная грудка, яйца, мука, сухари панировочные, растительное масло, соль, перец, чеснок</p>
-                    <div class="cardPrice">
-                        <p>9.70€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3>НАГГЕТСЫ</h3>
+                        <p>Состав: куриная грудка, яйца, мука, сухари панировочные, растительное масло, соль, перец, чеснок</p>
+                        <div class="cardPrice">
+                            <p>9.70€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3>КОНВЕТРИКИ ИЗ ЛАВАША С НАЧИНКОЙ ИЗ КУРИЦЫ</h3>
-                    <p>Состав: лаваш, яйца, курица, зелень, йогурт, соль, масло растительное, масло сливочное</p>
-                    <div class="cardPrice">
-                        <p>9.20€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3>КОНВЕТРИКИ ИЗ ЛАВАША С НАЧИНКОЙ ИЗ КУРИЦЫ</h3>
+                        <p>Состав: лаваш, яйца, курица, зелень, йогурт, соль, масло растительное, масло сливочное</p>
+                        <div class="cardPrice">
+                            <p>9.20€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3>БУТЕРБРОДЫ С ТВОРОЖНЫМ СЫРОМ И СЁМГОЙ</h3>
-                    <p>Состав: багет, сёмга, сыр творожный, огурец маринованный, укроп лимон (сок), перец чёрный</p>
-                    <div class="cardPrice">
-                        <p>2.30€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3>БУТЕРБРОДЫ С СЫРОМ И СЁМГОЙ</h3>
+                        <p>Состав: багет, сёмга, сыр творожный, огурец маринованный, укроп лимон (сок), перец чёрный</p>
+                        <div class="cardPrice">
+                            <p>2.30€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3>БРУСКЕТТА С ПОМИДОРАМИ И БАЗИЛИКОМ</h3>
-                    <p>Состав: хлеб Чиабатта, помидор, базилик зелёный, чеснок, масло оливковое, соль, перец чёрный</p>
-                    <div class="cardPrice">
-                        <p>9.70€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3>БРУСКЕТТА С ПОМИДОРАМИ И БАЗИЛИКОМ</h3>
+                        <p>Состав: хлеб Чиабатта, помидор, базилик зелёный, чеснок, масло оливковое, соль, перец чёрный</p>
+                        <div class="cardPrice">
+                            <p>9.70€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <section id="combo">
             <h2>Наборы</h2>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3>СЕМЕЙНЫЙ НАБОР</h3>
-                    <p>Входит: большой шашлык, запеченный сладкий картофель, напитки на выбор, салат на выбор</p>
-                    <div class="cardPrice">
-                        <p>9.70€</p>
-                        <button>Добавить в корзину</button>
+            <div class="album">
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3>СЕМЕЙНЫЙ НАБОР</h3>
+                        <p>Входит: большой шашлык, запеченный сладкий картофель, напитки на выбор, салат на выбор</p>
+                        <div class="cardPrice">
+                            <p>9.70€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3>НАБОР ДЛЯ КОМПАНИИ</h3>
-                    <p>Входит: стейки, жареные брокколи с чесноком и пармезаном, жареная спаржа</p>
-                    <div class="cardPrice">
-                        <p>9.20€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3>НАБОР ДЛЯ КОМПАНИИ</h3>
+                        <p>Входит: стейки, жареные брокколи с чесноком и пармезаном, жареная спаржа</p>
+                        <div class="cardPrice">
+                            <p>9.20€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3>ВЕГЕТАРИАНСКИЙ НАБОР</h3>
-                    <p>Состав: картошка, растительное масло, куркума, паприка, перец черный молотый, соль</p>
-                    <div class="cardPrice">
-                        <p>2.30€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3>ВЕГЕТАРИАНСКИЙ НАБОР</h3>
+                        <p>Состав: картошка, растительное масло, куркума, паприка, перец черный молотый, соль</p>
+                        <div class="cardPrice">
+                            <p>2.30€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3>ОСТРЫЙ НАБОР</h3>
-                    <p>Входит: фланк стейк в остром соусе из апельсина, бенихана заправка для салата с имбирем, острый коктейль «Мичелада»</p>
-                    <div class="cardPrice">
-                        <p>9.20€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3>ОСТРЫЙ НАБОР</h3>
+                        <p>Входит: фланк стейк в остром соусе из апельсина, бенихана заправка для салата с имбирем, острый коктейль «Мичелада»</p>
+                        <div class="cardPrice">
+                            <p>9.20€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <section id="kidsCombo">
             <h2>Детские наборы</h2>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3>СЫРНЫЙ МАЛЬЧИК</h3>
-                    <p>Входит: бургер с сыром, картошка фри с сырным соусом, напиток на выбор</p>
-                    <div class="cardPrice">
-                        <p>9.70€</p>
-                        <button>Добавить в корзину</button>
+            <div class="album">
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3>СЫРНЫЙ МАЛЬЧИК</h3>
+                        <p>Входит: бургер с сыром, картошка фри с сырным соусом, напиток на выбор</p>
+                        <div class="cardPrice">
+                            <p>9.70€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3>САЛАТНЫЙ МАЛЬЧИК</h3>
-                    <p>Входит: салат цезарь с соусом, начос, ягодный морс на выбор</p>
-                    <div class="cardPrice">
-                        <p>9.70€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3>САЛАТНЫЙ МАЛЬЧИК</h3>
+                        <p>Входит: салат цезарь с соусом, начос, ягодный морс на выбор</p>
+                        <div class="cardPrice">
+                            <p>9.70€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3>ПИЦЦА МАЛЬЧИК</h3>
-                    <p>Входит: детская пицца, картошка фри, напиток на выбор</p>
-                    <div class="cardPrice">
-                        <p>9.70€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3>ПИЦЦА МАЛЬЧИК</h3>
+                        <p>Входит: детская пицца, картошка фри, напиток на выбор</p>
+                        <div class="cardPrice">
+                            <p>9.70€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <section id="drinks">
             <h2>Напитки</h2>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3></h3>
-                    <div class="size">
-                        <button class="sizeOption"></button>
-                        <button class="sizeOption"></button>
-                        <button class="sizeOption"></button>
-                        <button class="sizeOption"></button>
-                        <button class="sizeOption"></button>
-                        <button class="sizeOption"></button>
+            <div class="album">
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
                     </div>
-                    <div class="cardPrice">
-                        <p>€</p>
-                        <button>Добавить в корзину</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3></h3>
-                    <div class="size">
-                        <button class="sizeOption"></button>
-                        <button class="sizeOption"></button>
-                        <button class="sizeOption"></button>
-                        <button class="sizeOption"></button>
-                        <button class="sizeOption"></button>
-                        <button class="sizeOption"></button>
-                    </div>
-                    <div class="cardPrice">
-                        <p>€</p>
-                        <button>Добавить в корзину</button>
+                    <div class="cardInfo">
+                        <h3></h3>
+                        <div class="size">
+                            <button class="sizeOption"></button>
+                            <button class="sizeOption"></button>
+                            <button class="sizeOption"></button>
+                            <button class="sizeOption"></button>
+                            <button class="sizeOption"></button>
+                            <button class="sizeOption"></button>
+                        </div>
+                        <div class="cardPrice">
+                            <p>€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3></h3>
-                    <div class="size">
-                        <button class="sizeOption"></button>
-                        <button class="sizeOption"></button>
-                        <button class="sizeOption"></button>
-                        <button class="sizeOption"></button>
-                        <button class="sizeOption"></button>
-                        <button class="sizeOption"></button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
                     </div>
-                    <div class="cardPrice">
-                        <p>€</p>
-                        <button>Добавить в корзину</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3></h3>
-                    <div class="size">
-                        <button class="sizeOption"></button>
-                        <button class="sizeOption"></button>
-                        <button class="sizeOption"></button>
-                        <button class="sizeOption"></button>
-                        <button class="sizeOption"></button>
-                        <button class="sizeOption"></button>
-                    </div>
-                    <div class="cardPrice">
-                        <p>€</p>
-                        <button>Добавить в корзину</button>
+                    <div class="cardInfo">
+                        <h3></h3>
+                        <div class="size">
+                            <button class="sizeOption"></button>
+                            <button class="sizeOption"></button>
+                            <button class="sizeOption"></button>
+                            <button class="sizeOption"></button>
+                            <button class="sizeOption"></button>
+                            <button class="sizeOption"></button>
+                        </div>
+                        <div class="cardPrice">
+                            <p>€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3></h3>
-                    <p></p>
-                    <div class="cardPrice">
-                        <p>€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3></h3>
+                        <div class="size">
+                            <button class="sizeOption"></button>
+                            <button class="sizeOption"></button>
+                            <button class="sizeOption"></button>
+                            <button class="sizeOption"></button>
+                            <button class="sizeOption"></button>
+                            <button class="sizeOption"></button>
+                        </div>
+                        <div class="cardPrice">
+                            <p>€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3></h3>
-                    <p></p>
-                    <div class="cardPrice">
-                        <p>€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3></h3>
+                        <div class="size">
+                            <button class="sizeOption"></button>
+                            <button class="sizeOption"></button>
+                            <button class="sizeOption"></button>
+                            <button class="sizeOption"></button>
+                            <button class="sizeOption"></button>
+                            <button class="sizeOption"></button>
+                        </div>
+                        <div class="cardPrice">
+                            <p>€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3></h3>
-                    <p></p>
-                    <div class="cardPrice">
-                        <p>€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3></h3>
+                        <p></p>
+                        <div class="cardPrice">
+                            <p>€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3></h3>
-                    <p></p>
-                    <div class="cardPrice">
-                        <p>€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3></h3>
+                        <p></p>
+                        <div class="cardPrice">
+                            <p>€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3></h3>
-                    <p></p>
-                    <div class="cardPrice">
-                        <p>€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3></h3>
+                        <p></p>
+                        <div class="cardPrice">
+                            <p>€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3></h3>
-                    <p></p>
-                    <div class="cardPrice">
-                        <p>€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3></h3>
+                        <p></p>
+                        <div class="cardPrice">
+                            <p>€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3></h3>
-                    <p></p>
-                    <div class="cardPrice">
-                        <p>€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3></h3>
+                        <p></p>
+                        <div class="cardPrice">
+                            <p>€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3></h3>
-                    <p></p>
-                    <div class="cardPrice">
-                        <p>€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3></h3>
+                        <p></p>
+                        <div class="cardPrice">
+                            <p>€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3></h3>
-                    <p></p>
-                    <div class="cardPrice">
-                        <p>€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3></h3>
+                        <p></p>
+                        <div class="cardPrice">
+                            <p>€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3></h3>
-                    <p></p>
-                    <div class="cardPrice">
-                        <p>€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3></h3>
+                        <p></p>
+                        <div class="cardPrice">
+                            <p>€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3></h3>
-                    <p></p>
-                    <div class="cardPrice">
-                        <p>€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3></h3>
+                        <p></p>
+                        <div class="cardPrice">
+                            <p>€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3></h3>
-                    <p></p>
-                    <div class="cardPrice">
-                        <p>€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3></h3>
+                        <p></p>
+                        <div class="cardPrice">
+                            <p>€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3></h3>
-                    <p></p>
-                    <div class="cardPrice">
-                        <p>€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3></h3>
+                        <p></p>
+                        <div class="cardPrice">
+                            <p>€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3></h3>
-                    <p></p>
-                    <div class="cardPrice">
-                        <p>€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3></h3>
+                        <p></p>
+                        <div class="cardPrice">
+                            <p>€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3></h3>
-                    <p></p>
-                    <div class="cardPrice">
-                        <p>€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3></h3>
+                        <p></p>
+                        <div class="cardPrice">
+                            <p>€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <div class="cardInfo">
-                    <h3></h3>
-                    <p></p>
-                    <div class="cardPrice">
-                        <p>€</p>
-                        <button>Добавить в корзину</button>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3></h3>
+                        <p></p>
+                        <div class="cardPrice">
+                            <p>€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3></h3>
+                        <p></p>
+                        <div class="cardPrice">
+                            <p>€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="Images/menu/img_1.png" alt="">
+                    </div>
+                    <div class="cardInfo">
+                        <h3></h3>
+                        <p></p>
+                        <div class="cardPrice">
+                            <p>€</p>
+                            <button>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
             </div>

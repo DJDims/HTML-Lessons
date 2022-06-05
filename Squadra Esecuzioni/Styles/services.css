@@ -6,3 +6,39 @@ body {
 #pageName {
     background-image: url(../Images/services/bg.png);
 }
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.col {
+    width: 46.25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.col h2 {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    background: #E1CDBB;
+    box-shadow: -20px 35px 7px rgba(0, 0, 0, 0.25);
+}
+
+.col p {
+    background: #E1CDBB;
+    box-shadow: -20px 35px 7px rgba(0, 0, 0, 0.25);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: justify;
+}

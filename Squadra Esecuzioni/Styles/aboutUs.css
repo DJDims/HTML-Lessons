@@ -6,3 +6,22 @@ body {
 #pageName {
     background-image: url(../Images/aboutus/bg.png);
 }
+
+main div {
+    width: 62.5%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main p {
+    background: #E1CDBB;
+    box-shadow: -20px 35px 7px rgba(0, 0, 0, 0.25);
+    font-family: 'Kristi';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: justify;
+}

@@ -12,11 +12,9 @@
 
     <!-- Шрифты -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
     <!-- Шрифты -->
 </head>
 <body>
@@ -29,10 +27,15 @@
                 <a href="index.html"><img id="logo" src="Images/common/logo.png" alt="Уютный уголок лого"></a>
             </div>
             <div id="topHeader3">
-                <p><a href="#">Вход</a> | <a href="#">Регистрация</a></p>
-                <form action="">
-                    <input placeholder="Поиск" type="text">
-                </form>
+                <div>
+                    <a href="cart.html"><img id="cartImg" src="Images/common/cart.png" alt=""></a>
+                </div>
+                <div id="topHeader3Forms">
+                    <p><a href="#">Вход</a> | <a href="#">Регистрация</a></p>
+                    <form action="">
+                        <input placeholder="Поиск" type="text">
+                    </form>
+                </div>
             </div>
         </div>
         <div id="menu">
@@ -46,19 +49,23 @@
                 </ul>
             </nav>
             <div id="pageName">
-                <p>Услуги</p>
+                <h1>Услуги</h1>
             </div>
         </div>
     </header>
     <!-- Тело -->
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <main>
+        <div class="col">
+            <img src="Images/services/img_1.png" alt="">
+            <h2>Главное помещение</h2>
+            <p>Также есть возможность заказать помещение нашего замечательного, уютного кафе, сделанного из досок, для того чтобы замечательно, уютно отпраздновать ваш праздник, или же можете заказать организацию вашего праздника. Будье уверенны, что мы сделаем нашу работу замечательно, уютно и с досками!</p>
+        </div>
+        <div class="col">
+            <img src="Images/services/img_2.png" alt="">
+            <h2>Игровая комната</h2>
+            <p>В нашем замечательном, уютном кафе, сделанном из досок, вы можете: оставить вашего <s>ненавист</s> любимого ребенка в нашей замечательной, уютной детской комнате, сделанной из досок. Тут ваш ребенок сможет замечательно уютно провести время играя с досками, пока вы потягиваете коктейли.</p>
+        </div>
+    </main>
     <!-- Тело -->
     <footer>
         <div id="medias">
