@@ -1,0 +1,24 @@
+body {
+    background: url("../Images/common/background.png");
+    margin: 0;
+}
+
+main {
+    width: 62.5%;
+    margin: 0 auto;
+}
+
+.cols {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    filter: drop-shadow(-20px 35px 7px rgba(0, 0, 0, 0.25));
+}

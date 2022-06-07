@@ -31,12 +31,12 @@ h2 {
     font-size: 64px;
     line-height: 77px;
     color: #FFFFFF;
-    border: 4px solid #000000;
     text-align: center;
+    text-shadow: 2px 2px 0px #000000, -2px -2px 0px #000000, 2px -2px 0px #000000, -2px 2px 0px #000000, 0px 2px 0px #000000, 0px -2px 0px #000000, 2px 0px 0px #000000, -2px 0px 0px #000000;
 }
 
 section {
-    width: 78%;
+    width: 79.84375%;
     margin: 0 auto;
 }
 
@@ -48,26 +48,37 @@ section {
 }
 
 .card {
-    width: 475px;
+    box-sizing: border-box;
+    width: 30.9849967384214%;
     height: 235px;
     background: #E1CDBB;
     box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: row;
-    margin-bottom: 120px;
-}
-
-.card img {
-    width: 191px;
-    height: 143px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-bottom: 60px;
+    margin-right: 1.174168297455969%;
+    margin-left: 1.174168297455969%;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: 'Source Sans Pro';
 }
 
 .cardImg {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 40.21052631578947%;
+}
+
+.card img {
+    width: auto;
+    height: auto;
+}
+
+.cardInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .cardInfo h3 {
@@ -81,7 +92,11 @@ section {
 }
 
 .cardInfo p {
+    box-sizing: border-box;
     text-align: justify;
+    padding-left: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .cardPrice {
@@ -89,8 +104,37 @@ section {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
+}
+
+.cardPrice p {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
 }
 
 .cardPrice button {
     height: 25px;
+    background-color: #164246;
+    color: #FFFFFF;
+    border: none;
+}
+
+.size {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sizeRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
