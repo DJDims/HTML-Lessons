@@ -4,7 +4,8 @@
     <meta charset='utf-8'>
     <title>Корзина</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' href=''>
+    <link rel='stylesheet' type='text/css' href='Styles/headerStyle.css'>
+    <link rel='stylesheet' type='text/css' href='Styles/cart.css'>
 
     <!-- Шрифты -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,6 +15,79 @@
     <!-- Шрифты -->
 </head>
 <body>
-    
+    <header>
+        <div id="topHeader">
+            <div id="topHeader1">
+                <p>Tel.: +3725555555</p>
+            </div>
+            <div id="topHeader2">
+                <a href="index.html"><img id="logo" src="Images/common/logo.png" alt="Уютный уголок лого"></a>
+            </div>
+            <div id="topHeader3">
+                <div>
+                    <a href="cart.html"><img id="cartImg" src="Images/common/cart.png" alt=""></a>
+                </div>
+                <div id="topHeader3Forms">
+                    <div><a href="login.html">Вход</a> <p>|</p> <a href="registration.html">Регистрация</a></div>
+                    <form action="">
+                        <input placeholder="Поиск" type="text">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="menu.html">Меню</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="delivery.html">Доставка</a></li>
+                    <li><a href="aboutUs.html">О нас</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1>Корзина</h1>
+        <div id="cartBody">
+            <div class="product">
+                <p>Стейк из говядины</p>
+                <p>9.70€</p>
+                <div class="countSettings">
+                    <button class="subtract"></button>
+                    <p>1</p>
+                    <button class="add"></button>
+                </div>
+                <p>9.70€</p>
+            </div>
+            <div class="product">
+                <p>Dr. Pepper                </p>
+                <p >9.70€   </p>
+                <div class="countSettings">
+                    <button class="subtract"></button>
+                    <p>2</p>
+                    <button class="add"></button>
+                </div>
+                <p>19.40€</p>
+            </div>
+            <div class="product">
+                <p>Картошка фри        </p>
+                <p>9.70€    </p>
+                <div class="countSettings">
+                    <button class="subtract"></button>
+                    <p>3</p>
+                    <button class="add"></button>
+                </div>
+                <p>29.10€</p>
+            </div>
+            <div id="fin">
+                <p>Итого</p>
+                <p>58.20€</p>
+            </div>
+        </div>
+        <div id="goToOrderDiv">
+            <a id="goToOrder" href="order.html">Заказать</a>
+        </div>
+    </main>
 </body>
 </html>

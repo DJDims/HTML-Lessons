@@ -15,8 +15,7 @@ main div {
 main h2 {
     background: #E1CDBB;
     box-shadow: -20px 35px 7px rgba(0, 0, 0, 0.25);
-    font-family: 'Kristi';
-    font-style: italic;
+    font-family: 'Inter';
     font-weight: 400;
     font-size: 48px;
     line-height: 60px;
@@ -26,10 +25,11 @@ main h2 {
 main p {
     background: #E1CDBB;
     box-shadow: -20px 35px 7px rgba(0, 0, 0, 0.25);
-    font-family: 'Kristi';
-    font-style: italic;
+    font-family: 'Source Sans Pro';
     font-weight: 400;
     font-size: 34px;
     line-height: 42px;
     text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
 }

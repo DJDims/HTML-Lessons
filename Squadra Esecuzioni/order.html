@@ -19,25 +19,31 @@
         <form action="">
             <div class="cols">
                 <div class="col">
-                    <input type="text">
-                    <input type="text">
-                    <input type="text">
+                    <input placeholder="Имя получателя" type="text">
+                    <input placeholder="Адрес" type="text">
+                    <input placeholder="Телефон" type="text">
+                    <input placeholder="Город" type="text">
                 </div>
                 <div class="col">
-                    <input type="text">
-                    <input type="text">
-                    <input type="text">
+                    <textarea placeholder="Примечания"></textarea>
+                    <input placeholder="Дата заказа" type="date">
+                    <input placeholder="Время заказа" type="time">
                 </div>
             </div>
-            <div>
-                <button></button>
-                <button></button>
-                <button></button>
+            <div id="payType">
+                <button>Наличные</button>
+                <button>Карта</button>
+                <button>Банк</button>
             </div>
-            <div>
-
+            <div id="selectDiv">
+                <select>
+                    <option>Купон 1</option>
+                    <option>Купон 2</option>
+                    <option>Купон 3</option>
+                    <option>Купон 4</option>
+                </select>
             </div>
-            <div>
+            <div id="formControl">
                 <input type="submit">
                 <input type="reset">
             </div>

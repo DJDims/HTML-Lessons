@@ -1,0 +1,94 @@
+body {
+    background: url("../Images/common/background.png");
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 116px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#cartBody {
+    background: #E1CDBB;
+    box-shadow: -20px 35px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+}
+
+.product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.countSettings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.countSettings p {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+.countSettings button {
+    border: none;
+    width: 64px;
+    height: 64px;
+}
+
+.countSettings .subtract {
+    background-image: url("../Images/cart/minus.png");
+    background-size: cover;
+}
+
+.countSettings .add {
+    background-image: url("../Images/cart/plus.png");
+    background-size: cover;
+}
+
+#fin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#fin p {
+    font-weight: 800;
+}
+
+#goToOrderDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#goToOrder {
+    background: #E1CDBB;
+    border-radius: 20px;
+    filter: drop-shadow(-20px 35px 7px rgba(0, 0, 0, 0.25));
+    width: 417px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
