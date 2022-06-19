@@ -1,0 +1,10 @@
+/* Арсений Чистяков */
+
+@media (max-width:1000px) {
+    main div {
+        width: 80%;
+    }
+    main img {
+        width: 100%;
+    }
+}

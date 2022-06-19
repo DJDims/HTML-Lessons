@@ -41,4 +41,6 @@ main {
     font-size: 32px;
     line-height: 39px;
     text-align: justify;
+    padding-right: 10px;
+    padding-left: 10px;
 }

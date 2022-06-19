@@ -1,0 +1,8 @@
+/* Вячеслав Назаров */
+
+@media (max-width: 1000px) {
+    section img {
+        width: auto;
+        height: auto;
+    }
+}

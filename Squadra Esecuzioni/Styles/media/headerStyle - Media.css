@@ -1,0 +1,19 @@
+/* Арсений Чистяков */
+
+@media (max-width: 1000px){
+    #cartImg {
+        width: 68px;
+    }
+
+    #topHeader3Forms div a {
+        font-size: 20px;
+    }
+
+    #topHeader3Forms div p {
+        font-size: 20px;
+    }
+    
+    #topHeader3Forms input {
+        width: 200px;
+    }
+}
